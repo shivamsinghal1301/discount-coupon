@@ -56,5 +56,6 @@ public class couponController {
     public ResponseEntity<cart> applyCoupon(@PathVariable Long id, @RequestBody cart cart) {
         return ResponseEntity.ok(couponService.applyCouponToCart(id, cart));
     }
+
 }
 
