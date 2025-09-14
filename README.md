@@ -5,13 +5,15 @@ The system is designed to be flexible, extensible, and easy to integrate with ca
 
 API-Endpoints
 
-POST         /api/coupons                         Create a new coupon
-GET          /api/coupons                         Fetch all coupons
-GET          /api/coupon/{id}                     Fetch coupon by Id
-PUT          /api/coupon/{id}                     Update coupon
-DELETE       /api/coupon/{id}                     Delete coupon
-POST         /api/coupons/applicable-coupons      Get all applicable coupons for a cart
-POST         /api/coupons/apply-coupon/{id}       Apply a specific coupon and get discounted cart
+| Method | Endpoint                          | Description         |
+| ------ | -------------------               | ------------------- |
+| POST   | `/api/coupons`                    | Create a new coupon |
+| GET    | `/api/coupons`                    | Get all coupons     |
+| GET    | `/api/coupons/{id}`               | Get coupon by ID    |
+| PUT    | `/api/coupons/{id}`               | Update coupon       |
+| DELETE | `/api/coupons/{id}`               | Delete a coupon     |
+| POST   | `/api/coupons/applicable-coupons` | Get all applicable coupons for a cart           |
+| POST   | `/api/coupons/apply-coupon/{id}`  | Apply a specific coupon and get discounted cart |
 
 
 Coupon Types
