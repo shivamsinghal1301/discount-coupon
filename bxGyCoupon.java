@@ -27,4 +27,5 @@ public class bxGyCoupon extends coupon {
 
     private Integer maxRepetition;
 
+
 }
