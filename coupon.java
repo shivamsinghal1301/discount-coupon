@@ -39,4 +39,5 @@ public class coupon {
     private Integer maxUsagePerUser;
     private Integer maxTotalUsage;
 
+
 }
